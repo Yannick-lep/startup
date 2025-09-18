@@ -173,3 +173,64 @@ header .socialMedia i{
 #about .about-design-content i{
     margin-right: 5px;
 }
+
+
+
+/* ================== The Team +++++++++++++++*/
+
+
+#team {
+    margin: 150px 0;
+    width: 100%;
+    height: max-content;
+}
+
+#team>h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+#team>p, #team h3 {
+    text-align: center;
+}
+
+#team  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    width: 100%;
+}
+
+#team .card {
+    width: 20%;
+    box-shadow: -1px 3px 7px 0 rgba(0,0,0,0.41);
+    -webkit-box-shadow: -1px 3px 7px 0 rgba(0,0,0,0.41);
+    -moz-box-shadow: -1px 3px 7px 0 rgba(0,0,0,0.41);
+    margin: 0 10px;
+    height: max-content;
+}
+
+#team .card img{
+    width: 100%;
+}
+
+#team .card .nom{
+    font-size: 1.5em;
+}
+
+#team .card p, #team .card a {
+    padding: 15px;
+}
+
+#team .card .job {
+    color: #9C9C9C;
+}
+
+#team .card>a {
+    display: flex;
+    justify-content: center;
+    margin: 5px  15px 20px 15px;
+    background-color: #F1F1F1;
+    padding: 10px;
+}
