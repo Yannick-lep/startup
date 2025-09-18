@@ -13,7 +13,7 @@
 
 <body>
 <header>
-    <div class="container">
+    <div class="container" id="home">
         <p class="logo"><a href="#">LOGO</a></p>
         <nav>
             <li>
@@ -47,7 +47,6 @@
         </div>
     </div>
 </header>
-
 <main>
         <div id="about">
             <h3>About the company</h3>
@@ -97,25 +96,26 @@
                 </div>
             </div>
         </div>
-        <div class="team" id="team">
-            <p class="title">THE TEAM</p>
+
+        <div  id="team">
+            <h3>THE TEAM</h3>
             <p>The ones who runs this company</p>
             <div class="container">
                 <div class="card">
-                    <img src="/img/team1.jpg" alt="team 1">
+                    <img src="/img/team2.jpg" alt="team 1">
                     <p class="nom">John Doe</p>
                     <P class="job">CEO & Founder</P>
                     <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
                         possimus.</P>
-                    <a href="">Contact</a>
+                    <a href=""><i class="fa-solid fa-envelope"></i>Contact</a>
                 </div>
                 <div class="card">
-                    <img src="/img/team2.jpg" alt="team 2">
-                    <pclass="nom">Anja Doe</p>
+                    <img src="/img/team1.jpg" alt="team 2">
+                    <p class="nom">Anja Doe</p>
                         <P class="job">Art Director</P>
                         <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
                             possimus.</P>
-                        <a href="">Contact</a>
+                        <a href=""><i class="fa-solid fa-envelope"></i>Contact</a>
                 </div>
                 <div class="card">
                     <img src="/img/team3.jpg" alt="team 3">
@@ -123,19 +123,23 @@
                     <P class="job">Art Director</P>
                     <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
                         possimus.</P>
-                    <a href="">Contact</a>
+                    <a href=""><i class="fa-solid fa-envelope"></i>Contact</a>
                 </div>
                 <div class="card">
                     <img src="/img/team4.jpg" alt="team 4">
                     <p class="nom">Dan Star</p>
                     <P class="job">Art Director</P>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
-                        possimus.</P>
-                    <a href="">Contact</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
+                        possimus.</p>
+                    <a href="">
+                        <i class="fa-solid fa-envelope"></i>Contact
+                    </a>
                 </div>
 
             </div>
         </div>
+
+
         <div class="stat">
             <div class="numbers">
                 <p>14+</p>
@@ -276,15 +280,18 @@
                     </thead>
                 </table>
             </div>
-
         </div>
 
-        <div class="contact" id="contact">1
-            <p class="title">CONTACT</p>
-            <P>lETS GET IN TOUCH.sEND US A MESSAGE</P>
-            <p><i class="fa-solid fa-location-dot"></i>chicago, US</p>
-            <p><i class="fa-solid fa-phone"></i>Phone:+00 1511515</p>
-            <p><i class="fa-solid fa-envelope"></i>Email:mail@mail.com</p>
+
+
+        <div id="contact">
+            <h2>CONTACT</h2>
+            <P>Lets get in touch. Send us a message :</P>
+            <div class="info-contact">
+                <p><i class="fa-solid fa-location-dot"></i>chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i>Phone:+00 1511515</p>
+                <p><i class="fa-solid fa-envelope"></i>Email:mail@mail.com</p>
+            </div>
             <form action="" class="formulaire">
                 <input type="text" id="name" name="name" class="name" placeholder="Name">
                 <input type="email" id="email" name="email" class="email" placeholder="Email">

@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -9,6 +8,11 @@
 
 html  {
     font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
 
 li {
@@ -30,6 +34,7 @@ header .container {
 
 header .container nav {
     display: flex;
+    text-transform: uppercase;
 }
 
 header .container nav li a {
@@ -248,4 +253,152 @@ header .socialMedia i{
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+
+
+/* ================== The Team +++++++++++++++*/
+
+
+#team {
+    margin: 150px 0;
+    width: 100%;
+    height: max-content;
+}
+
+#team>h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+#team>p, #team h3 {
+    text-align: center;
+}
+
+#team  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    width: 100%;
+}
+
+#team .card {
+    width: 20%;
+    box-shadow: -1px 3px 7px 0 rgba(0,0,0,0.41);
+    -webkit-box-shadow: -1px 3px 7px 0 rgba(0,0,0,0.41);
+    -moz-box-shadow: -1px 3px 7px 0 rgba(0,0,0,0.41);
+    margin: 0 10px;
+    height: max-content;
+}
+
+#team .card img{
+    width: 100%;
+
+}
+
+#team .card .nom{
+    font-size: 1.5em;
+}
+
+#team .card p, #team .card a {
+    padding: 15px;
+}
+
+#team .card .job {
+    color: #9C9C9C;
+}
+
+#team .card>a {
+    display: flex;
+    justify-content: center;
+    margin: 5px  15px 20px 15px;
+    background-color: #F1F1F1;
+    padding: 10px;
+}
+
+/* ================== Contact +++++++++++++++*/
+
+#contact {
+    width: 100%;
+    padding: 50px;
+    margin: auto;
+
+}
+
+#contact>h2 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact>p {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact .info-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+#contact .info-contact p{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#contact .info-contact p i{
+    font-size: 30px;
+    margin: 0 20px 0 0;
+}
+
+#contact input{
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px 10px;
+}
+
+#contact button{
+    background-color: #000;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+#contact>img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+/* ================== Footer +++++++++++++++*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    color: #fff;
+}
+
+footer>a {
+    color: black;
+    background-color: #f1F1F1;
+    padding: 10px;
+}
+
+footer .socialMedia a i{
+    color: white;
+    margin: 20px 0;
 }
