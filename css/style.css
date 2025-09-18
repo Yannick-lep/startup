@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* plage de poids parce que c'est une variable font */
+    font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -9,6 +16,10 @@
 html  {
     font-family: sans-serif;
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
 
 li {
@@ -30,6 +41,7 @@ header .container {
 
 header .container nav {
     display: flex;
+    text-transform: uppercase;
 }
 
 header .container nav li a {
