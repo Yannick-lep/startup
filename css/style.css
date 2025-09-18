@@ -8,6 +8,7 @@
 
 html  {
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 li {
@@ -213,6 +214,7 @@ header .socialMedia i{
 
 #team .card img{
     width: 100%;
+
 }
 
 #team .card .nom{
@@ -233,4 +235,28 @@ header .socialMedia i{
     margin: 5px  15px 20px 15px;
     background-color: #F1F1F1;
     padding: 10px;
+}
+
+/* ================== Footer +++++++++++++++*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    color: #fff;
+}
+
+footer>a {
+    color: black;
+    background-color: #f1F1F1;
+    padding: 10px;
+}
+
+footer .socialMedia a i{
+    color: white;
+    margin: 20px 0;
 }
