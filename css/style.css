@@ -1,4 +1,251 @@
-.stat .numbers{
-    background-color: gray;
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html  {
+    font-family: sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+}
+
+header .container nav {
+    display: flex;
+}
+
+header .container nav li a {
+    color: black;
+    margin-left: 30px;
+}
+
+header img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+header .callToAction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-image: url("../img/mac.jpg");
+    background-repeat: no-repeat;
+    padding: 260px 150px 150px 150px;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+
+header .callToAction h1 {
+    font-size: 4.5em;
+}
+
+header .callToAction p {
+    font-size: 1.5em;
+    margin: 60px 0;
+}
+
+header .callToAction .btnCallToAction {
+    display: block;
+    z-index: 3;
+    background-color: #fff;
+    color: black;
+    padding: 15px 20px;
+    font-size: 1.5em;
+    width: fit-content;
+    filter: opacity(0.5);
+}
+
+header .socialMedia {
+    position: absolute;
+    margin-bottom: 40px;
+    bottom: 0;
+}
+
+header .socialMedia i{
+    font-size: 20px;
+    color: white;
+    filter: opacity(0.5);
+}
+
+#about {
+    height: max-content;
+    width: 100%;
+    margin: 150px 0 100px 0;
+}
+
+#about> h3, #about>p {
+    text-align: center;
+}
+
+#about h3 {
+    font-size: 3em;
+}
+
+#about p {
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 100px;
+}
+
+#about .about-box {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 20%;
+    text-align: center;
+    height: max-content;
+}
+
+#about .about-box i{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+#about .about-box h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#about .about-design {
+    margin-top: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 150px 50px;
+    background-color: #F1F1F1;
+}
+
+#about .about-design-content {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px 100px 0;
+}
+
+#about .about-design-content h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#about .about-design-content img{
+    width: 800px;
+}
+
+#about .about-design-content a{
+    width: fit-content;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#about .about-design-content i{
+    margin-right: 5px;
+
+}
+
+.stat {
+    background-color: #333;;
+    padding: 40px 20px;
+}
+.stat {
+    display: flex;
+    justify-content: space-around; /* Espacement uniforme entre les blocs */
+    align-items: center;
+    flex-wrap: wrap; /* Pour s'adapter sur mobile*/
+    margin: auto;
+    text-align: center;
+}
+
+.numbers p:first-child {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.numbers p:last-child {
+    font-size: 0.8rem;
+    color: #ccc; /*texte seconadiare légèrement grisé */
+    margin: 0;
+}
+
+/* ====== SECTION OUR WORK === */
+.work {
+    padding: 60PX 20PX;
+    text-align: center;
+    background: #fff; /* Fond blanc*/
+}
+
+.work .title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    margin: 40px 0;
+}
+.work p {
+    margin-bottom: 40px;
+    color: rgb(54, 52, 52);
+    font-size: 1.5em;
+}
+
+.work .picturesWork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    
+}
+.work .picturesWork img {
+    width: 24%;
+    margin-bottom: 15px;
+}
+
+.ourskills {
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.skills {
+    flex: 1;
+}
+.skillsbar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }

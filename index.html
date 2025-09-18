@@ -5,80 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>startup</title>
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-     <header id="home">
-        <div class="container">
-            <p class="logo"><a href="#">LOGO</a></p>
-            <nav>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#team"><i class="fa-solid fa-user"></i>TEAM</a></li>
-                <li><a href="#work"><i class="fas fa-th"></i> WORK</a></li>
-                <li><a href="#pricing"><i class="fa-solid fa-dollar-sign"></i>PRICING</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-envelope"></i>CONTACT</a></li>
-            </nav>
-        </div>
-        <img src="/img/mac.jpg" alt="image macbook">
+<header>
+    <div class="container">
+        <p class="logo"><a href="#">LOGO</a></p>
+        <nav>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#team"><i class="fa-solid fa-user"></i>Team</a>
+            </li>
+            <li>
+                <a href="#work"><i class="fa-solid fa-table-cells"></i>Work</a>
+            </li>
+            <li>
+                <a href="#princing"><i class="fa-solid fa-dollar-sign"></i>Pricing</a>
+            </li>
+            <li>
+                <a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a>
+            </li>
+        </nav>
+    </div>
+    <div class="callToAction">
         <h1>Start something that matters</h1>
         <p>Stop wasting valuable time with projects that just isn't you.</p>
-        <a href="">Learn more and start today</a>
+        <a href="#" class="btnCallToAction">Learn more and start today</a>
         <div class="socialMedia">
-            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-square-snapchat"></i></a>
-            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
-    </header>
-    <main>
-        <div class="about" id="about">
+    </div>
+</header>
 
-            <P class="title">ABOUT THE COMPANY</P>
+<main>
+        <div id="about">
+            <h3>About the company</h3>
             <p>Key features of our company</p>
             <div class="container">
-                <div class="box">
-                    <li><i class="fa-solid fa-desktop"></i></li>
-                    <p>Responsive</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
-                        possimus.</p>
+                <div class="about-box">
+                    <div class="box-icon">
+                        <i class="fa-solid fa-desktop"></i>
+                        <h4>Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
                 </div>
-                <div class="box">
-                    <li><i class="fa-solid fa-heart"></i></li>
-                    <p>Passion</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
-                        possimus.
-                    </p>
+                <div class="about-box">
+                    <div class="box-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <h4>Passion</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
                 </div>
-                <div class="box">
-                    <li><i class="fa-regular fa-gem"></i></li>
-                    <p>Design</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
-                        possimus.</p>
+                <div class="about-box">
+                    <div class="box-icon">
+                        <i class="fa-regular fa-gem"></i>
+                        <h4>Disign</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
                 </div>
-                <div class="box">
-                    <li><i class="fa-solid fa-gear"></i></li>
-                    <p>support</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
-                        possimus.</p>
+                <div class="about-box">
+                    <div class="box-icon">
+                        <i class="fa-solid fa-gear"></i>
+                        <h4>Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
                 </div>
             </div>
-            <div class="containerCompany">
-                <div class="information">
-                    <p>We know design</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nesciunt perspiciatis esse
-                        possimus.
-                    </p>
-                    <a href=""><i class="fas fa-th"></i>View Our Works</a>
+            <div class="about-design">
+                <div class="about-design-content">
+                    <h2>We know design.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+                    <a href="#"><i class="fa-solid fa-table-cells"></i>Wiew Our Works</a>
                 </div>
-                <img src="/img/phone_buildings.jpg" alt=" phone building">
+                <div>
+                    <img src="./img/phone_buildings.jpg" alt="">
+                </div>
             </div>
-
         </div>
         <div class="team" id="team">
             <p class="title">THE TEAM</p>
@@ -150,6 +167,7 @@
                 <img src="/img/tech_tableturner.jpg" alt="tableturner">
                 <img src="/img/tech_typewriter.jpg" alt="typewriter">
             </div>
+
             <div class="ourskills">
                 <div class="skills">
                     <p>Our Skills</p>
@@ -160,6 +178,7 @@
                         possimus.
                     </p>
                 </div>
+                
                 <div class="skillsbar">
                     <label for="photography"><i class="fa-solid fa-camera"></i>Photography</label>
                     <progress id="photography" value="90" max="100">90%</progress>
@@ -230,6 +249,31 @@
                         </tr>
 
                     </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Premium</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>50G Storage</td>
+                            </tr>
+                            <tr>
+                                <td>50 Email</td>
+                            </tr>
+                            <tr>
+                                <td>50 Domains</td>
+                            </tr>
+                            <tr>
+                                <td>$ 50 <span>per month</span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="">Sing Up</a></td>
+                            </tr>
+                        </tbody>
+
+                    </thead>
                 </table>
             </div>
 
