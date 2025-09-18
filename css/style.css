@@ -237,6 +237,68 @@ header .socialMedia i{
     padding: 10px;
 }
 
+/* ================== Contact +++++++++++++++*/
+
+#contact {
+    width: 100%;
+    padding: 50px;
+    margin: auto;
+
+}
+
+#contact>h2 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact>p {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact .info-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+#contact .info-contact p{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#contact .info-contact p i{
+    font-size: 30px;
+    margin: 0 20px 0 0;
+}
+
+#contact input{
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px 10px;
+}
+
+#contact button{
+    background-color: #000;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+#contact>img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
 /* ================== Footer +++++++++++++++*/
 
 footer {
